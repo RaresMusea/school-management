@@ -20,4 +20,8 @@ public class Student extends Person {
         super(name, age);
         this.courses = Collections.emptyList();
     }
+
+    public List<Course> getCourses() {
+        return courses;
+    }
 }
